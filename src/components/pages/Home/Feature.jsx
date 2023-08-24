@@ -9,7 +9,7 @@ const Feature = () => {
     return (
         <section className="feature">
             <div className="container">
-                <div className="header">
+                <div className="header" data-aos="fade-up">
                     <div className="title">
                         <span>Features</span> that makes app different!
                     </div>
@@ -23,7 +23,7 @@ const Feature = () => {
                         <div className="col-4">
                             <div className="left text-end">
                                <div>
-                                   <div className="item one">
+                                   <div className="item one" data-aos="fade-right">
                                        <div className="icon">
                                            <img src={Secure} alt=""/>
                                        </div>
@@ -32,7 +32,7 @@ const Feature = () => {
                                            Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.
                                        </div>
                                    </div>
-                                   <div className="item two">
+                                   <div className="item two" data-aos="fade-right">
                                        <div className="icon">
                                            <img src={Functional} alt=""/>
                                        </div>
@@ -53,7 +53,7 @@ const Feature = () => {
                         <div className="col-4">
                             <div className="right">
                                 <div>
-                                    <div className="item three">
+                                    <div className="item three" data-aos="fade-left">
                                         <div className="icon">
                                             <img src={Chat} alt=""/>
                                         </div>
@@ -62,7 +62,7 @@ const Feature = () => {
                                             Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.
                                         </div>
                                     </div>
-                                    <div className="item four">
+                                    <div className="item four" data-aos="fade-left">
                                         <div className="icon">
                                             <img src={Support} alt=""/>
                                         </div>

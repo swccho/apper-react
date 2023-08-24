@@ -20,7 +20,7 @@ const Interface = () => {
     return (
         <section className="interface">
             <div className="container">
-                <div className="header">
+                <div className="header" data-aos="fade-up">
                     <div className="title">
                         Beautiful <span>interface</span>
                     </div>

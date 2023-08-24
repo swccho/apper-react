@@ -8,7 +8,11 @@ const FreeApp = () => {
     return (
         <section className="shared free-app">
             <div className="container">
-                <div className="body">
+                <div className="body"
+                     data-aos="fade-zoom-in"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="100"
+                     data-aos-offset="0">
                     <div className="content">
                         <div className="row">
                             <div className="col-6">

@@ -12,7 +12,7 @@ const About = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-6">
-                        <div className="box">
+                        <div className="box" data-aos="fade-zoom-in">
                             <div className="frame">
                                 <img src={Frame} alt=""/>
                             </div>
@@ -23,7 +23,7 @@ const About = () => {
                     </div>
                     <div className="col-6">
                         <div className="content">
-                            <div className="header">
+                            <div className="header" data-aos="fade-up">
                                 <div className="title">
                                     Some awesome words <br/> <span>about app.</span>
                                 </div>
@@ -33,7 +33,11 @@ const About = () => {
                                     printer took a galley of type and. Lorem ipsum dolor sit amet.
                                 </div>
                             </div>
-                            <div className="body">
+                            <div className="body"
+                                 data-aos="fade-zoom-in"
+                                 data-aos-easing="ease-in-back"
+                                 data-aos-delay="300"
+                                 data-aos-offset="0">
                                 <div className="row">
                                     <div className="col-6">
                                         <div className="counters">

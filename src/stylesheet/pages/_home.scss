@@ -189,16 +189,6 @@
         }
       }
     }
-    .company{
-      background-color: $white;
-      .body{
-        .logos{
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
-      }
-    }
     .feature{
       background-color: $white;
       .body{
@@ -424,6 +414,40 @@
               font-size: 20px;
               font-weight: 600;
               margin-top: 20px;
+            }
+            .social-links{
+              padding: 0;
+              margin: 20px 0 0;
+              li{
+                display: inline-block;
+                margin-right: 10px;
+                a{  height: 40px;
+                  width: 40px;
+                  display: inline-flex;
+                  align-items: center;
+                  justify-content: center;
+                  border-radius: 50%;
+                  margin-right: 10px;
+                  background-color: $white;
+                  text-decoration: none;
+                  border: 1px solid $theme;
+                  transition: all .3s;
+                  &:hover{
+                    transition: all .3s;
+                    border: 1px solid $white;
+                    background-color: $theme;
+                    color: $theme;
+                    i{
+                      font-size: 28px;
+                      color: $white;
+                    }
+                  }
+                  i{
+                    font-size: 28px;
+                    color: $theme;
+                  }
+                }
+              }
             }
             .slug{
               margin-top: 10px;

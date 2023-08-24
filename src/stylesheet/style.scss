@@ -8,6 +8,7 @@ html{
 body{
   font-family: 'Poppins', sans-serif;
   color: $black-3;
+  overflow-x: hidden;
   @import "shared/header";
   @import "shared/shared";
   @import "pages/home";

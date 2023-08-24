@@ -7,7 +7,7 @@ const Blog = () => {
     return (
         <section className="blog">
             <div className="container">
-                <div className="header">
+                <div className="header" data-aos="fade-up">
                     <div className="title">
                         Read latest <span>story</span>
                     </div>
@@ -17,7 +17,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className="body">
-                    <div className="row">
+                    <div className="row" data-aos="fade-up">
                         <div className="col-4">
                             <div className="item">
                                 <div className="thumbnail">

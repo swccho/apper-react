@@ -11,7 +11,7 @@ const ModernUi = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-6">
-                        <div className="header">
+                        <div className="header" data-aos="fade-up">
                             <div className="title">
                                 Beautiful design with <br/> <span>modern UI</span>
                             </div>
@@ -22,7 +22,7 @@ const ModernUi = () => {
                             </div>
                         </div>
                         <div className="body">
-                            <div className="list-item">
+                            <div className="list-item" data-aos="fade-up">
                                 <div className="icon">
                                     <img src={Icon} alt=""/>
                                 </div>
@@ -33,7 +33,7 @@ const ModernUi = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="list-item">
+                            <div className="list-item" data-aos="fade-up">
                                 <div className="icon">
                                     <img src={Icon} alt=""/>
                                 </div>
@@ -44,7 +44,7 @@ const ModernUi = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="list-item">
+                            <div className="list-item" data-aos="fade-up">
                                 <div className="icon">
                                     <img src={Icon} alt=""/>
                                 </div>
@@ -58,7 +58,11 @@ const ModernUi = () => {
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="box">
+                        <div className="box"
+                             data-aos="fade-zoom-in"
+                             data-aos-easing="ease-in-back"
+                             data-aos-delay="300"
+                             data-aos-offset="0">
                             <div className="left">
                                 <img src={Modern1} alt=""/>
                             </div>

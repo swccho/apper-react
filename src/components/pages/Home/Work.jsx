@@ -8,7 +8,7 @@ const Work = () => {
         <section className="work">
             <div className="container">
                 <div className="content">
-                    <div className="header">
+                    <div className="header" data-aos="fade-up">
                         <div className="title">How it works - 3 easy steps</div>
                         <div className="desc">
                             Lorem Ipsum is simply dummy text of the printing and typese tting
@@ -19,42 +19,54 @@ const Work = () => {
                         <div className="row">
                             <div className="col-4">
                                <div className="step">
-                                   <div className="icon one">
+                                   <div className="icon one" data-aos="fade-left">
                                        <img src={Step1} alt=""/>
                                    </div>
-                                   <div className="title">Download app</div>
-                                   <div className="slug">
-                                       <span>
-                                           <i className="lab la-android"></i>
-                                       </span>
-                                       <span>
-                                           <i className="lab la-apple"></i>
-                                       </span>
-                                       <span>
-                                           <i className="lab la-windows"></i>
-                                       </span>
+                                   <div data-aos="fade-right">
+                                       <div className="title">Download app</div>
+                                       <ul className="social-links">
+                                           <li>
+                                               <a href="">
+                                                   <i className="lab la-android"></i>
+                                               </a>
+                                           </li>
+                                           <li>
+                                               <a href="">
+                                                   <i className="lab la-apple"></i>
+                                               </a>
+                                           </li>
+                                           <li>
+                                               <a href="">
+                                                   <i className="lab la-windows"></i>
+                                               </a>
+                                           </li>
+                                       </ul>
+                                       <div className="desc">Download App either for Windows, Mac or Android </div>
                                    </div>
-                                   <div className="desc">Download App either for Windows, Mac or Android </div>
                                </div>
                             </div>
                             <div className="col-4">
                                <div className="step">
-                                   <div className="icon two">
+                                   <div className="icon two" data-aos="fade-left">
                                        <img src={Step2} alt=""/>
                                    </div>
-                                   <div className="title">Create account</div>
-                                   <div className="slug">14 days free trial</div>
-                                   <div className="desc">Download App either for Windows, Mac or Android </div>
+                                   <div data-aos="fade-right">
+                                       <div className="title">Create account</div>
+                                       <div className="slug">14 days free trial</div>
+                                       <div className="desc">Download App either for Windows, Mac or Android </div>
+                                   </div>
                                </div>
                             </div>
                             <div className="col-4">
                                <div className="step">
-                                   <div className="icon three">
+                                   <div className="icon three" data-aos="fade-left">
                                        <img src={Step3} alt=""/>
                                    </div>
-                                   <div className="title">It’s done, enjoy the app</div>
-                                   <div className="slug">Have any questions check our FAQs</div>
-                                   <div className="desc">Download App either for Windows, Mac or Android </div>
+                                   <div data-aos="fade-right">
+                                       <div className="title">It’s done, enjoy the app</div>
+                                       <div className="slug">Have any questions check our FAQs</div>
+                                       <div className="desc">Download App either for Windows, Mac or Android </div>
+                                   </div>
                                </div>
                             </div>
                         </div>

@@ -5,9 +5,9 @@ import Service from "./Service.jsx";
 import AboutUs from "./AboutUs";
 import CompanyStatus from "./CompanyStatus.jsx";
 import Employee from "./Employee.jsx";
-import Company from "./Company.jsx";
 import Contact from "./Contact.jsx";
 import Footer from "../../shared/Footer.jsx";
+import Company from "../../shared/Company.jsx";
 
 const About = () => {
     return (

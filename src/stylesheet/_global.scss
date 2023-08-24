@@ -59,3 +59,28 @@ section{
     }
   }
 }
+
+/*slick carousel*/
+.slick-dots{
+  li{
+    &.slick-active{
+      button{
+        &:before{
+          background-color: $theme!important;
+        }
+      }
+    }
+    button{
+      &:before{
+        content: ''!important;
+        height: 15px!important;
+        width: 15px!important;
+        border-radius: 50%!important;
+        display: inline-block!important;
+        margin-right: 10px!important;
+        background-color: $gray!important;
+        opacity: 1!important;
+      }
+    }
+  }
+}

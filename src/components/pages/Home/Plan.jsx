@@ -8,7 +8,7 @@ const Plan = () => {
     return (
         <section className="plan">
             <div className="container">
-                <div className="header">
+                <div className="header" data-aos="fade-up">
                     <div className="title">
                         Best & simple <span>pricing</span>
                     </div>
@@ -17,7 +17,7 @@ const Plan = () => {
                         <br/>indus orem Ipsum has beenthe standard dummy.
                     </div>
                 </div>
-                <div className="body">
+                <div className="body" data-aos="fade-up">
                     <div className="row">
                         <div className="col-4">
                             <div className="item">
@@ -80,7 +80,7 @@ const Plan = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="chose-custom">
+                    <div className="chose-custom" data-aos="fade-up">
                         Not sure what to choose ? <a href="">contact us</a> for custom packages
                     </div>
                 </div>

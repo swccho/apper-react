@@ -11,22 +11,27 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-top" style={background}>
-                <div className="container"><div className="newsletter">
-                    <div className="text">
-                        <div className="title">Subscribe newsletter</div>
-                        <div className="slug">Be the first to recieve all latest post in your inbox</div>
-                    </div>
-                    <div className="subscribe">
-                        <form>
-                            <div className="d-flex align-items-center">
-                                <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Enter your email"/>
+                <div className="container">
+                    <div className="newsletter"
+                         data-aos="fade-zoom-in"
+                         data-aos-easing="ease-in-back"
+                         data-aos-delay="100"
+                         data-aos-offset="0">
+                        <div className="text">
+                            <div className="title">Subscribe newsletter</div>
+                            <div className="slug">Be the first to recieve all latest post in your inbox</div>
+                        </div>
+                        <div className="subscribe">
+                            <form>
+                                <div className="d-flex align-items-center">
+                                    <div className="form-group">
+                                        <input type="text" className="form-control" placeholder="Enter your email"/>
+                                    </div>
+                                    <div className="btn submit-btn">Submit</div>
                                 </div>
-                                <div className="btn submit-btn">Submit</div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
-                </div>
                     <div className="row">
                         <div className="col-3">
                             <div className="item">

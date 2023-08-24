@@ -14,7 +14,7 @@ const Testimonial = () => {
     return (
         <section className="testimonial">
            <div className="container">
-               <div className="header">
+               <div className="header" data-aos="fade-up">
                    <div className="title">
                        What our <span>customer say</span>
                    </div>
@@ -23,7 +23,11 @@ const Testimonial = () => {
                        <br/>indus orem Ipsum has beenthe standard dummy.
                    </div>
                    <div className="body">
-                       <div className="reviews" style={{backgroundImage: `url(${Bg})`}}>
+                       <div className="reviews" style={{backgroundImage: `url(${Bg})`}}
+                            data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back"
+                            data-aos-delay="300"
+                            data-aos-offset="0">
                            <div className="row justify-content-center">
                                <div className="col-6">
                                    <Swiper
