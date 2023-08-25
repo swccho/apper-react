@@ -7,12 +7,12 @@ import Work from "./Work.jsx";
 import Footer from "../../shared/Footer.jsx";
 import Hero from "./Hero.jsx";
 import Plan from "./Plan.jsx";
-import Blog from "./Blog.jsx";
 import Testimonial from "./Testimonial.jsx";
 import Interface from "./Interface.jsx";
 import FreeApp from "../../shared/FreeApp.jsx";
 import FaqItem from "../../shared/FaqItem.jsx";
 import Company from "../../shared/Company.jsx";
+import Blog from "../../shared/Blog.jsx";
 
 const Home = () => {
     return (

@@ -62,32 +62,6 @@ footer{
       .email{
         margin-bottom: 10px;
       }
-      .social-links{
-        padding: 0;
-        margin: 20px 0 0;
-        li{
-          display: inline-block;
-          margin-right: 10px;
-          a{
-            display: block;
-            height: 35px;
-            width: 35px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            color: $white;
-            text-decoration: none;
-            border-radius: 50%;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            &:hover{
-              transition: all .3s ease-in-out;
-              border: 1px solid $white;
-              background-color: $white;
-              color: $theme;
-            }
-          }
-        }
-      }
       .menu{
         padding: 0;
         margin: 20px 0 0;

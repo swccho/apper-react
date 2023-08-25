@@ -57,10 +57,24 @@
               position: relative;
               .play-btn{
                 position: absolute;
-                left: calc(50% - 30px);
-                top: calc(50% - 33px);
+                left: calc(50% - 40px);
+                top: calc(50% - 43px);
                 border: none;
-                padding: 0;
+                padding: 10px;
+                z-index: 1;
+                &:before{
+                  content: '';
+                  position: absolute;
+                  height: 100%;
+                  width: 100%;
+                  opacity: 1;
+                  background-color: $light-2;
+                  border-radius: 50%;
+                  left: 0;
+                  top: 0;
+                  z-index: -1;
+                  animation: opacity 1.2s linear infinite;
+                }
               }
             }
           }
@@ -137,12 +151,17 @@
             transition: all .3s ease-in-out;
             background-color: $white;
             box-shadow: 0 4px 10px $shadow;
+            .name{
+              transition: all .3s ease-in-out;
+              color: $theme;
+            }
           }
           .name{
             font-size: 20px;
             color: $dark-purple;
             font-weight: 500;
             margin: 25px 0 5px;
+            transition: all .3s ease-in-out;
           }
           .role{
             color: $black-3;
@@ -150,24 +169,13 @@
           .social-links{
             padding: 0;
             margin: 10px 0 0;
-            list-style: none;
             li{
               display: inline-block;
               margin-right: 10px;
               a{
-                display: block;
-                height: 35px;
-                width: 35px;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
                 color: $gray-2;
-                text-decoration: none;
-                border-radius: 50%;
                 border: 1px solid $gray-3;
-                transition: all .3s ease-in-out;
                 &:hover{
-                  transition: all .3s ease-in-out;
                   border: 1px solid $theme;
                   background-color: $theme;
                   color: $white;
@@ -186,6 +194,7 @@
         padding: 100px 0;
         color: $white;
         text-align: center;
+        position: relative;
         .header{
           margin-bottom: 40px;
           .title{

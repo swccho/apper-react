@@ -2,6 +2,7 @@ import React from 'react';
 import Bg from '../../../assets/images/form-bg.png';
 import Logo from '../../../assets/images/footer_logo.png'
 import Google from '../../../assets/images/google.png'
+import {Link} from "react-router-dom";
 
 const SignIn = () => {
     return (
@@ -9,9 +10,9 @@ const SignIn = () => {
             <div className="container">
                 <div className="wrapper">
                     <div className="back">
-                        <a href="">
+                        <Link to="/">
                             <i className="las la-arrow-left"></i> Back
-                        </a>
+                        </Link>
                     </div>
                     <div className="logo">
                         <img src={Logo} alt=""/>

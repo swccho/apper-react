@@ -9,7 +9,7 @@ const Service = () => {
         <section className="service">
             <div className="container">
                 <div className="content">
-                    <div className="header">
+                    <div className="header" data-aos="fade-up">
                         <div className="title">
                             <span>Why we are different</span> from others!
                         </div>
@@ -18,7 +18,7 @@ const Service = () => {
                             <br/>indus orem Ipsum has beenthe standard dummy.
                         </div>
                     </div>
-                    <div className="body">
+                    <div className="body" data-aos="fade-up">
                         <div className="row">
                             <div className="col-3">
                                 <div className="item">

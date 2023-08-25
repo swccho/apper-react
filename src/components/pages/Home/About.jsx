@@ -1,10 +1,7 @@
 import React from 'react';
-import Download from '../../../assets/images/download.png'
-import Countries from '../../../assets/images/countries.png'
-import Followers from '../../../assets/images/followers.png'
-import Reviews from '../../../assets/images/reviews.png'
 import Frame from '../../../assets/images/about-frame.png'
 import Screen from '../../../assets/images/about-screen.png'
+import Counter from "../../shared/Counter.jsx";
 
 const About = () => {
     return (
@@ -38,52 +35,7 @@ const About = () => {
                                  data-aos-easing="ease-in-back"
                                  data-aos-delay="300"
                                  data-aos-offset="0">
-                                <div className="row">
-                                    <div className="col-6">
-                                        <div className="counters">
-                                            <div className="counter">
-                                                <div className="icon">
-                                                    <img src={Download} alt=""/>
-                                                </div>
-                                                <div className="text">
-                                                    <div className="title">17M+</div>
-                                                    <div className="text">Download</div>
-                                                </div>
-                                            </div>
-                                            <div className="counter">
-                                                <div className="icon">
-                                                    <img src={Reviews} alt=""/>
-                                                </div>
-                                                <div className="text">
-                                                    <div className="title">2300M+</div>
-                                                    <div className="text">Download</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-6">
-                                        <div className="counters">
-                                            <div className="counter">
-                                                <div className="icon">
-                                                    <img src={Followers} alt=""/>
-                                                </div>
-                                                <div className="text">
-                                                    <div className="title">8M+</div>
-                                                    <div className="text">Download</div>
-                                                </div>
-                                            </div>
-                                            <div className="counter">
-                                                <div className="icon">
-                                                    <img src={Countries} alt=""/>
-                                                </div>
-                                                <div className="text">
-                                                    <div className="title">150M+</div>
-                                                    <div className="text">Download</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Counter />
                                 <button className="btn btn-theme">start free trial</button>
                             </div>
                         </div>

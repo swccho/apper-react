@@ -8,7 +8,7 @@ const Employee = () => {
     return (
         <section className="employee">
             <div className="container">
-                <div className="header">
+                <div className="header" data-aos="fade-up">
                     <div className="title">
                         Meet our <span>experts</span>
                     </div>
@@ -18,7 +18,7 @@ const Employee = () => {
                     </div>
                 </div>
                 <div className="body">
-                    <div className="row">
+                    <div className="row" data-aos="fade-up">
                         <div className="col-3">
                             <div className="member">
                                 <div className="img">

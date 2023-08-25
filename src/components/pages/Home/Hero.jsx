@@ -9,7 +9,6 @@ import User2 from '../../../assets/images/used02.png'
 import User3 from '../../../assets/images/used03.png'
 import User4 from '../../../assets/images/used04.png'
 import Play from '../../../assets/images/play_icon.png'
-import GoTop from "../../../assets/images/go_top.png";
 
 const Hero = () => {
     return (
@@ -63,9 +62,6 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <a href="#hero" className="go-top">
-                <img src={GoTop} alt=""/>
-            </a>
         </section>
     );
 };

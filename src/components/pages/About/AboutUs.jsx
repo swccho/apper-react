@@ -13,27 +13,31 @@ const Service = () => {
                         <div className="left">
                             <div>
                                 <div className="header">
-                                    <div className="title">
+                                    <div className="title" data-aos="fade-up">
                                         <span>Providing innovative app solution</span> to make customer life easy to grow.
                                     </div>
                                     <br/>
                                     <div className="desc">
-                                        Lorem Ipsum is simply dummy text of the printing and type setting industry lorem Ipsum has been
-                                        the industrys standard dummy text ever since the when an unknown printer took a galley of type
-                                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-                                        the leap into electronic typesetting, remaining to make a type speci men book. It has survived
-                                        essentially unchanged.
-                                        <br/> <br/>
-                                        Standard dummy text ever since the when an unknown printer took a galley of type and scrambled
-                                        it to make a type specien book. It has survived not only five centuries, but also the leap into
-                                        electronic typesetting.
+                                        <div data-aos="fade-up">
+                                            Lorem Ipsum is simply dummy text of the printing and type setting industry lorem Ipsum has been
+                                            the industrys standard dummy text ever since the when an unknown printer took a galley of type
+                                            and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining to make a type speci men book. It has survived
+                                            essentially unchanged.
+                                        </div>
+                                        <br/>
+                                        <div data-aos="fade-up">
+                                            Standard dummy text ever since the when an unknown printer took a galley of type and scrambled
+                                            it to make a type specien book. It has survived not only five centuries, but also the leap into
+                                            electronic typesetting.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="right">
+                        <div className="right" data-aos="fade-left">
                             <ul>
                                 <li>
                                     <img src={About1} alt=""/>

@@ -3,6 +3,7 @@ import Header from "../../shared/Header.jsx";
 import Breadcrumb from "../../shared/Breadcrumb.jsx";
 import FaqItem from "../../shared/FaqItem.jsx";
 import FreeApp from "../../shared/FreeApp.jsx";
+import Footer from "../../shared/Footer.jsx";
 
 const Faq = () => {
     return (
@@ -11,6 +12,7 @@ const Faq = () => {
             <Breadcrumb />
             <FaqItem />
             <FreeApp />
+            <Footer />
         </>
     );
 };

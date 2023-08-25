@@ -1,11 +1,10 @@
-import React from 'react';
-import Blog1 from '../../../assets/images/story01.png'
-import Blog2 from '../../../assets/images/story02.png'
-import Blog3 from '../../../assets/images/story03.png'
+import Blog1 from '../../assets/images/story01.png'
+import Blog2 from '../../assets/images/story02.png'
+import Blog3 from '../../assets/images/story03.png'
 
 const Blog = () => {
     return (
-        <section className="blog">
+        <section className="shared blog">
             <div className="container">
                 <div className="header" data-aos="fade-up">
                     <div className="title">
